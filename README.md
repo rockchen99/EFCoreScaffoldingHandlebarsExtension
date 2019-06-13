@@ -35,12 +35,12 @@
 ```
 
 ## 用法
-1.在目标项目中新建ScaffoldingDesignTimeServices类型，实现IDesignTimeServices接口
-2.创建HandlebarsScaffoldingOptions配置对象
-3.指定数据表AddHandlebarsScaffolding.Tables（注意：不指定表示所有数据表，也可以使用命令的-t 选项指定数据表，指定数据表时最好加上schema，如：dbo.Category）
-4.指定数据库架构（如果指定了schema将会表示所有同schema的数据表，所以Tables将失效）
-5.注册服务:AddHandlebarsScaffolding(this IServiceCollection services, HandlebarsScaffoldingOptions options=null)
-6.编写其他扩展
+1. 在目标项目中新建ScaffoldingDesignTimeServices类型，实现IDesignTimeServices接口
+2. 创建HandlebarsScaffoldingOptions配置对象
+3. 指定数据表AddHandlebarsScaffolding.Tables（注意：不指定表示所有数据表，也可以使用命令的-t 选项指定数据表，指定数据表时最好加上schema，如：dbo.Category）
+4. 指定数据库架构（如果指定了schema将会表示所有同schema的数据表，所以Tables将失效）
+5. 注册服务:AddHandlebarsScaffolding(this IServiceCollection services, HandlebarsScaffoldingOptions options=null)
+6. 编写其他扩展
 ```csharp
     public class ScaffoldingDesignTimeServices : IDesignTimeServices
     {
