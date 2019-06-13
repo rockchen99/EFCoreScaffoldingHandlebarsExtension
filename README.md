@@ -80,7 +80,7 @@
     }
 ```
 
-## 示例/samples
+## 示例samples
 - 数据库脚本：EFCore.mdf
 - Powershell
 ```csharp
