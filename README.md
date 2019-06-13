@@ -81,3 +81,9 @@
 ```
 
 ## 示例/samples
+- 数据库脚本：EFCore.mdf
+- Powershell
+```csharp
+dotnet ef dbcontext scaffold "Data Source=.;Initial Catalog=EFCoreDb;Persist Security Info=True;User ID=sa;Password=**********;" Microsoft.EntityFrameworkCore.SqlServer -o Models -c NorthwindSlimContext --context-dir Contexts -f -d
+```
+
