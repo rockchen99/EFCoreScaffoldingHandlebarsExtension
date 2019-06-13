@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CodeTemplates\CSharpDbContext\DbContext.hbs" />
+    <None Remove="CodeTemplates\CSharpDbContext\Partials\DbConstructor.hbs" />
+    <None Remove="CodeTemplates\CSharpDbContext\Partials\DbImports.hbs" />
+    <None Remove="CodeTemplates\CSharpDbContext\Partials\DbSets.hbs" />
+    <None Remove="CodeTemplates\CSharpEntityTypeConfiguration\Configuration.hbs" />
+    <None Remove="CodeTemplates\CSharpEntityTypeConfiguration\Partials\CfgImports.hbs" />
+    <None Remove="CodeTemplates\CSharpEntityType\Class.hbs" />
+    <None Remove="CodeTemplates\CSharpEntityType\Partials\Constructor.hbs" />
+    <None Remove="CodeTemplates\CSharpEntityType\Partials\Imports.hbs" />
+    <None Remove="CodeTemplates\CSharpEntityType\Partials\Properties.hbs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="CodeTemplates\CSharpDbContext\DbContext.hbs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CodeTemplates\CSharpDbContext\Partials\DbConstructor.hbs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CodeTemplates\CSharpDbContext\Partials\DbImports.hbs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CodeTemplates\CSharpDbContext\Partials\DbSets.hbs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CodeTemplates\CSharpEntityTypeConfiguration\Configuration.hbs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CodeTemplates\CSharpEntityTypeConfiguration\Partials\CfgImports.hbs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CodeTemplates\CSharpEntityType\Class.hbs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CodeTemplates\CSharpEntityType\Partials\Constructor.hbs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CodeTemplates\CSharpEntityType\Partials\Imports.hbs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CodeTemplates\CSharpEntityType\Partials\Properties.hbs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFrameworkCore.Scaffolding.Handlebars" Version="1.7.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+</Project>

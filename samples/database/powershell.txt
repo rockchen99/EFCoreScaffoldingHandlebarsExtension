@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "Data Source=.;Initial Catalog=EFCoreDb;Persist Security Info=True;User ID=sa;Password=123456;" Microsoft.EntityFrameworkCore.SqlServer -o Models -c NorthwindSlimContext -f --context-dir Contexts

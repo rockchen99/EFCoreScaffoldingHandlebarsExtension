@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{19D3209D-9BCE-4730-BB5C-3E33EF107050}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BFC17A0E-8A31-40CC-BAAB-9A1CF25C88AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefineFluteAPI", "samples\RefineFluteAPI\RefineFluteAPI.csproj", "{C093FB68-9A68-448A-9A99-D7308FF585DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.Scaffolding.Handlebars.Extension", "src\EFCore.Scaffolding.Handlebars.Extension\EFCore.Scaffolding.Handlebars.Extension.csproj", "{CCEE5260-0A53-44E7-BBCC-4E0C4AC83560}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C093FB68-9A68-448A-9A99-D7308FF585DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C093FB68-9A68-448A-9A99-D7308FF585DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C093FB68-9A68-448A-9A99-D7308FF585DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C093FB68-9A68-448A-9A99-D7308FF585DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCEE5260-0A53-44E7-BBCC-4E0C4AC83560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCEE5260-0A53-44E7-BBCC-4E0C4AC83560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCEE5260-0A53-44E7-BBCC-4E0C4AC83560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCEE5260-0A53-44E7-BBCC-4E0C4AC83560}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C093FB68-9A68-448A-9A99-D7308FF585DA} = {19D3209D-9BCE-4730-BB5C-3E33EF107050}
+		{CCEE5260-0A53-44E7-BBCC-4E0C4AC83560} = {BFC17A0E-8A31-40CC-BAAB-9A1CF25C88AD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05E41F27-A49F-4C1C-83BE-F8F0760D3359}
+	EndGlobalSection
+EndGlobal

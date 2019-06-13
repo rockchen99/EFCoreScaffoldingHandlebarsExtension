@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="C:\Self Scope\EFCoreScaffoldingHandlebarsExtension\samples\database\EFCore.mdf";Integrated Security=True;Connect Timeout=30;" Microsoft.EntityFrameworkCore.SqlServer -o Models -c NorthwindSlimContext -f --context-dir Contexts
