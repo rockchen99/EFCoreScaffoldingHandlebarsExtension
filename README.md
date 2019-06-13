@@ -1,5 +1,5 @@
 # 实体框架核心脚手架与把手的扩展(EFCoreScaffoldingHandlebarsExtension)
-目的：基于Entity Framework Core Scaffolding with Handlebars扩展，使Flute API 配置与DbContext分离，避免因数据表太多造成生成的数据上下文类型文件过大
+目的：基于Entity Framework Core Scaffolding with Handlebars扩展，实现Flute API 配置与DbContext分离，避免因数据表太多造成生成的数据上下文类型文件过大
 
 扩展：
 - 扩展CSharpEntityTypeConfiguration模板
